@@ -331,6 +331,7 @@ input, select, button {
         padding: 20px;
         text-align: center;
     }
+
     input, select, button {
         width: 100%;
         padding: 12px;
@@ -344,5 +345,26 @@ input, select, button {
     .chart-content {
         width: 100%;
         max-width: none;
+    }
+
+    
+    #nav-search-form {
+        display: flex;
+        width: 100%;
+        max-width: none; 
+        margin: 0 auto; 
+    }
+    #nav-search-form input {
+        flex-grow: 1; 
+        padding: 12px;
+        font-size: 16px; 
+    }
+
+    #nav-search-form button {
+        padding: 12px 20px; 
+        background-color: #28a745;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
     }
 }
